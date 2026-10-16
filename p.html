@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>صفحة مشارك | تحدي الـ 30 يومًا</title>
+<meta name="theme-color" content="#0a2463">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&family=Aref+Ruqaa:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a href="index.html" class="brand"><span class="mq-mask mq-nav" role="img" aria-label="مؤسسة المرقاة"></span><i class="vsep"></i><span class="logo-mask"></span><span>صناع الأثر الرقمي<small>تحدي الـ 30 يومًا</small></span></a>
+    <nav class="nav-links" style="margin-inline-start:auto"><a href="index.html">الرئيسية</a><a href="register.html">التسجيل</a></nav>
+  </div>
+</header>
+<main class="wrap" style="padding-top:26px;padding-bottom:50px">
+  <div id="state" class="card empty">جارٍ التحميل…</div>
+  <div id="prof" class="hide">
+    <div class="card pf-hero tilt">
+      <div id="pfAv"></div>
+      <div class="pf-info">
+        <div id="pfBadge"></div>
+        <h1 id="pfName"></h1>
+        <p id="pfSpec"></p>
+        <p id="pfPlace" class="muted"></p>
+        <div class="pf-acts">
+          <a class="btn sm" id="pfIg" target="_blank" rel="noopener">إنستغرام</a>
+          <button class="btn gold sm" id="pfCard">🪪 بطاقة المشاركة</button>
+          <button class="btn ghost sm" id="pfShare">📤 مشاركة الصفحة</button>
+        </div>
+      </div>
+    </div>
+    <div class="stats" id="pfStats" style="margin-top:18px"></div>
+    <div class="card" style="padding:22px;margin-top:18px">
+      <div class="colh"><span>🗓️ رحلة الـ <span id="pfTotal">30</span> يومًا</span><span class="muted" id="pfMot" style="font-size:.9rem"></span></div>
+      <div class="daygrid" id="pfDays"></div>
+      <p style="color:var(--mut);font-size:.85rem;margin-top:10px">الأزرق: منجز · الأحمر الفاتح: فائت · الإطار الذهبي: اليوم. اضغط على يوم منجز لمشاهدة الريلز.</p>
+      <div class="bdg" id="pfBdg" style="margin-top:12px"></div>
+    </div>
+    <div class="card cta-band" style="margin-top:18px">
+      <div><h2>هل تريد صناعة أثرك أنت أيضًا؟</h2><p>انضم للتحدي مجانًا وابدأ رحلتك مع «صناع الأثر الرقمي».</p></div>
+      <div class="cta"><a class="btn gold" href="register.html">🚀 سجّل الآن</a><a class="btn ghost" href="index.html">لوحة الترتيب</a></div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="foot-logos"><span class="mq-mask"></span><i class="vsep"></i><span class="logo-mask"></span></div>
+  <div id="footOrg"></div>
+</footer>
+<script src="assets/js/vendor/supabase.js"></script>
+<script>window.supabase||document.write('<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0/dist/umd/supabase.js"><\/script>')</script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/common.js"></script>
+<script src="assets/js/vendor/qrcode.js"></script>
+<script src="assets/js/card.js"></script>
+<script src="assets/js/profile.js"></script>
+</body>
+</html>
